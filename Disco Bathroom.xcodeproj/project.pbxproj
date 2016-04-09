@@ -126,7 +126,7 @@
 		CA8F59A61CB9AEBB005D3A75 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
 		CA8F59A71CB9AEBB005D3A75 /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
 		CA8F59A81CB9AEBB005D3A75 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
-		CA8F59C61CB9AEC5005D3A75 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		CA8F59C61CB9AEC5005D3A75 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = ../SwiftyJSON.swift; sourceTree = "<group>"; };
 		CA8F59C91CB9AF0E005D3A75 /* AnimationFrames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationFrames.swift; sourceTree = "<group>"; };
 		CA8F59CA1CB9AF0E005D3A75 /* UIImageView+Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Download.swift"; sourceTree = "<group>"; };
 		CA8F59CB1CB9AF0E005D3A75 /* UIImage+DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+DropShadow.swift"; sourceTree = "<group>"; };
@@ -176,6 +176,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA5D7E991CB9C4CA00F9E0E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CA8F59D11CB9AFD4005D3A75 /* CancelableTimer.swift */,
+				CA8F59D31CB9AFF5005D3A75 /* RadioStation.swift */,
+				CA8F59D51CB9B086005D3A75 /* Player.swift */,
+				CA8F59D71CB9B0BA005D3A75 /* Track.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		CA8F59401CB9AC3B005D3A75 = {
 			isa = PBXGroup;
 			children = (
@@ -200,13 +211,14 @@
 		CA8F594B1CB9AC3B005D3A75 /* Disco Bathroom */ = {
 			isa = PBXGroup;
 			children = (
-				CA8F59C81CB9AED4005D3A75 /* Models */,
-				CA8F59821CB9ADB0005D3A75 /* Data */,
-				CA8F59811CB9AD53005D3A75 /* Cells */,
-				CA8F59801CB9AD46005D3A75 /* Networking */,
-				CA8F597E1CB9AC84005D3A75 /* ViewControllers */,
-				CA8F597D1CB9AC81005D3A75 /* Layouts */,
-				CA8F597C1CB9AC7F005D3A75 /* UI Helpers */,
+				CA5D7E991CB9C4CA00F9E0E9 /* Models */,
+				CA8F59C81CB9AED4005D3A75 /* Data */,
+				CA8F59821CB9ADB0005D3A75 /* Cells */,
+				CA8F59811CB9AD53005D3A75 /* Networking */,
+				CA8F59801CB9AD46005D3A75 /* ViewControllers */,
+				CA8F597E1CB9AC84005D3A75 /* Layouts */,
+				CA8F597D1CB9AC81005D3A75 /* UI Helpers */,
+				CA8F597C1CB9AC7F005D3A75 /* Libraries */,
 				CA8F597B1CB9AC7C005D3A75 /* Other */,
 				CA8F597A1CB9AC6A005D3A75 /* Supporting Files */,
 				CA8F59531CB9AC3B005D3A75 /* Assets.xcassets */,
@@ -249,7 +261,16 @@
 			name = Other;
 			sourceTree = "<group>";
 		};
-		CA8F597C1CB9AC7F005D3A75 /* UI Helpers */ = {
+		CA8F597C1CB9AC7F005D3A75 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				CA8F59C61CB9AEC5005D3A75 /* SwiftyJSON.swift */,
+				CA8F598A1CB9AEAA005D3A75 /* Spring */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		CA8F597D1CB9AC81005D3A75 /* UI Helpers */ = {
 			isa = PBXGroup;
 			children = (
 				CA8F59C91CB9AF0E005D3A75 /* AnimationFrames.swift */,
@@ -259,7 +280,7 @@
 			name = "UI Helpers";
 			sourceTree = "<group>";
 		};
-		CA8F597D1CB9AC81005D3A75 /* Layouts */ = {
+		CA8F597E1CB9AC84005D3A75 /* Layouts */ = {
 			isa = PBXGroup;
 			children = (
 				CA8F59CF1CB9AF98005D3A75 /* Main.storyboard */,
@@ -268,7 +289,7 @@
 			name = Layouts;
 			sourceTree = "<group>";
 		};
-		CA8F597E1CB9AC84005D3A75 /* ViewControllers */ = {
+		CA8F59801CB9AD46005D3A75 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				CA8F59E11CB9B1C2005D3A75 /* AboutViewController.swift */,
@@ -283,7 +304,7 @@
 			name = ViewControllers;
 			sourceTree = "<group>";
 		};
-		CA8F59801CB9AD46005D3A75 /* Networking */ = {
+		CA8F59811CB9AD53005D3A75 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
 				CA8F59DB1CB9B124005D3A75 /* Data Manager.swift */,
@@ -291,7 +312,7 @@
 			name = Networking;
 			sourceTree = "<group>";
 		};
-		CA8F59811CB9AD53005D3A75 /* Cells */ = {
+		CA8F59821CB9ADB0005D3A75 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
 				CA8F59DD1CB9B17C005D3A75 /* NothingFoundCell.xib */,
@@ -300,20 +321,10 @@
 			name = Cells;
 			sourceTree = "<group>";
 		};
-		CA8F59821CB9ADB0005D3A75 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				CA8F59D91CB9B0FD005D3A75 /* stations.json */,
-			);
-			name = Data;
-			sourceTree = "<group>";
-		};
 		CA8F59871CB9AE88005D3A75 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
 				CA8F59F11CB9B446005D3A75 /* MediaPlayer.framework */,
-				CA8F59C61CB9AEC5005D3A75 /* SwiftyJSON.swift */,
-				CA8F598A1CB9AEAA005D3A75 /* Spring */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -353,17 +364,15 @@
 				CA8F59A81CB9AEBB005D3A75 /* UnwindSegue.swift */,
 			);
 			name = Spring;
+			path = ..;
 			sourceTree = "<group>";
 		};
-		CA8F59C81CB9AED4005D3A75 /* Models */ = {
+		CA8F59C81CB9AED4005D3A75 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				CA8F59D11CB9AFD4005D3A75 /* CancelableTimer.swift */,
-				CA8F59D31CB9AFF5005D3A75 /* RadioStation.swift */,
-				CA8F59D51CB9B086005D3A75 /* Player.swift */,
-				CA8F59D71CB9B0BA005D3A75 /* Track.swift */,
+				CA8F59D91CB9B0FD005D3A75 /* stations.json */,
 			);
-			name = Models;
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -784,6 +793,7 @@
 				CA8F59731CB9AC3B005D3A75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA8F59741CB9AC3B005D3A75 /* Build configuration list for PBXNativeTarget "Disco BathroomTests" */ = {
 			isa = XCConfigurationList;
@@ -792,6 +802,7 @@
 				CA8F59761CB9AC3B005D3A75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA8F59771CB9AC3B005D3A75 /* Build configuration list for PBXNativeTarget "Disco BathroomUITests" */ = {
 			isa = XCConfigurationList;
@@ -800,6 +811,7 @@
 				CA8F59791CB9AC3B005D3A75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
