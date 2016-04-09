@@ -1,0 +1,807 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA8F594D1CB9AC3B005D3A75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F594C1CB9AC3B005D3A75 /* AppDelegate.swift */; };
+		CA8F59541CB9AC3B005D3A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA8F59531CB9AC3B005D3A75 /* Assets.xcassets */; };
+		CA8F59571CB9AC3B005D3A75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA8F59551CB9AC3B005D3A75 /* LaunchScreen.storyboard */; };
+		CA8F59621CB9AC3B005D3A75 /* Disco_BathroomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59611CB9AC3B005D3A75 /* Disco_BathroomTests.swift */; };
+		CA8F596D1CB9AC3B005D3A75 /* Disco_BathroomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F596C1CB9AC3B005D3A75 /* Disco_BathroomUITests.swift */; };
+		CA8F59861CB9AE2E005D3A75 /* DiscoBathroom-Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59851CB9AE2E005D3A75 /* DiscoBathroom-Settings.swift */; };
+		CA8F59A91CB9AEBB005D3A75 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F598B1CB9AEBB005D3A75 /* AsyncButton.swift */; };
+		CA8F59AA1CB9AEBB005D3A75 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F598C1CB9AEBB005D3A75 /* AsyncImageView.swift */; };
+		CA8F59AB1CB9AEBB005D3A75 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F598D1CB9AEBB005D3A75 /* AutoTextView.swift */; };
+		CA8F59AC1CB9AEBB005D3A75 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F598E1CB9AEBB005D3A75 /* BlurView.swift */; };
+		CA8F59AD1CB9AEBB005D3A75 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F598F1CB9AEBB005D3A75 /* DesignableButton.swift */; };
+		CA8F59AE1CB9AEBB005D3A75 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59901CB9AEBB005D3A75 /* DesignableImageView.swift */; };
+		CA8F59AF1CB9AEBB005D3A75 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59911CB9AEBB005D3A75 /* DesignableLabel.swift */; };
+		CA8F59B01CB9AEBB005D3A75 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59921CB9AEBB005D3A75 /* DesignableTabBarController.swift */; };
+		CA8F59B11CB9AEBB005D3A75 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59931CB9AEBB005D3A75 /* DesignableTextField.swift */; };
+		CA8F59B21CB9AEBB005D3A75 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59941CB9AEBB005D3A75 /* DesignableTextView.swift */; };
+		CA8F59B31CB9AEBB005D3A75 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59951CB9AEBB005D3A75 /* DesignableView.swift */; };
+		CA8F59B41CB9AEBB005D3A75 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59961CB9AEBB005D3A75 /* ImageLoader.swift */; };
+		CA8F59B51CB9AEBB005D3A75 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA8F59971CB9AEBB005D3A75 /* Info.plist */; };
+		CA8F59B61CB9AEBB005D3A75 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59981CB9AEBB005D3A75 /* KeyboardLayoutConstraint.swift */; };
+		CA8F59B71CB9AEBB005D3A75 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59991CB9AEBB005D3A75 /* LoadingView.swift */; };
+		CA8F59B81CB9AEBB005D3A75 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA8F599A1CB9AEBB005D3A75 /* LoadingView.xib */; };
+		CA8F59B91CB9AEBB005D3A75 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F599B1CB9AEBB005D3A75 /* Misc.swift */; };
+		CA8F59BA1CB9AEBB005D3A75 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F599C1CB9AEBB005D3A75 /* SoundPlayer.swift */; };
+		CA8F59BB1CB9AEBB005D3A75 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F599E1CB9AEBB005D3A75 /* Spring.swift */; };
+		CA8F59BC1CB9AEBB005D3A75 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F599F1CB9AEBB005D3A75 /* SpringAnimation.swift */; };
+		CA8F59BD1CB9AEBB005D3A75 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59A01CB9AEBB005D3A75 /* SpringButton.swift */; };
+		CA8F59BE1CB9AEBB005D3A75 /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59A11CB9AEBB005D3A75 /* SpringImageView.swift */; };
+		CA8F59BF1CB9AEBB005D3A75 /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59A21CB9AEBB005D3A75 /* SpringLabel.swift */; };
+		CA8F59C01CB9AEBB005D3A75 /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59A31CB9AEBB005D3A75 /* SpringTextField.swift */; };
+		CA8F59C11CB9AEBB005D3A75 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59A41CB9AEBB005D3A75 /* SpringTextView.swift */; };
+		CA8F59C21CB9AEBB005D3A75 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59A51CB9AEBB005D3A75 /* SpringView.swift */; };
+		CA8F59C31CB9AEBB005D3A75 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59A61CB9AEBB005D3A75 /* TransitionManager.swift */; };
+		CA8F59C41CB9AEBB005D3A75 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59A71CB9AEBB005D3A75 /* TransitionZoom.swift */; };
+		CA8F59C51CB9AEBB005D3A75 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59A81CB9AEBB005D3A75 /* UnwindSegue.swift */; };
+		CA8F59C71CB9AEC5005D3A75 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59C61CB9AEC5005D3A75 /* SwiftyJSON.swift */; };
+		CA8F59CC1CB9AF0E005D3A75 /* AnimationFrames.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59C91CB9AF0E005D3A75 /* AnimationFrames.swift */; };
+		CA8F59CD1CB9AF0E005D3A75 /* UIImageView+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59CA1CB9AF0E005D3A75 /* UIImageView+Download.swift */; };
+		CA8F59CE1CB9AF0E005D3A75 /* UIImage+DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59CB1CB9AF0E005D3A75 /* UIImage+DropShadow.swift */; };
+		CA8F59D01CB9AF98005D3A75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA8F59CF1CB9AF98005D3A75 /* Main.storyboard */; };
+		CA8F59D21CB9AFD4005D3A75 /* CancelableTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59D11CB9AFD4005D3A75 /* CancelableTimer.swift */; };
+		CA8F59D41CB9AFF5005D3A75 /* RadioStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59D31CB9AFF5005D3A75 /* RadioStation.swift */; };
+		CA8F59D61CB9B086005D3A75 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59D51CB9B086005D3A75 /* Player.swift */; };
+		CA8F59D81CB9B0BA005D3A75 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59D71CB9B0BA005D3A75 /* Track.swift */; };
+		CA8F59DA1CB9B0FD005D3A75 /* stations.json in Resources */ = {isa = PBXBuildFile; fileRef = CA8F59D91CB9B0FD005D3A75 /* stations.json */; };
+		CA8F59DC1CB9B124005D3A75 /* Data Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59DB1CB9B124005D3A75 /* Data Manager.swift */; };
+		CA8F59DE1CB9B17C005D3A75 /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA8F59DD1CB9B17C005D3A75 /* NothingFoundCell.xib */; };
+		CA8F59E01CB9B190005D3A75 /* StationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59DF1CB9B190005D3A75 /* StationTableViewCell.swift */; };
+		CA8F59E91CB9B1C2005D3A75 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59E11CB9B1C2005D3A75 /* AboutViewController.swift */; };
+		CA8F59EA1CB9B1C2005D3A75 /* InfoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59E21CB9B1C2005D3A75 /* InfoDetailViewController.swift */; };
+		CA8F59EB1CB9B1C2005D3A75 /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59E31CB9B1C2005D3A75 /* NowPlayingViewController.swift */; };
+		CA8F59EC1CB9B1C2005D3A75 /* NowPlayingViewController+Flash.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59E41CB9B1C2005D3A75 /* NowPlayingViewController+Flash.swift */; };
+		CA8F59ED1CB9B1C2005D3A75 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59E51CB9B1C2005D3A75 /* OptionsViewController.swift */; };
+		CA8F59EE1CB9B1C2005D3A75 /* LightsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59E61CB9B1C2005D3A75 /* LightsViewController.swift */; };
+		CA8F59EF1CB9B1C2005D3A75 /* PopUpMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59E71CB9B1C2005D3A75 /* PopUpMenuViewController.swift */; };
+		CA8F59F01CB9B1C2005D3A75 /* StationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59E81CB9B1C2005D3A75 /* StationsViewController.swift */; };
+		CA8F59F21CB9B446005D3A75 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8F59F11CB9B446005D3A75 /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA8F595E1CB9AC3B005D3A75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA8F59411CB9AC3B005D3A75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA8F59481CB9AC3B005D3A75;
+			remoteInfo = "Disco Bathroom";
+		};
+		CA8F59691CB9AC3B005D3A75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA8F59411CB9AC3B005D3A75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA8F59481CB9AC3B005D3A75;
+			remoteInfo = "Disco Bathroom";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA8F59491CB9AC3B005D3A75 /* Disco Bathroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Disco Bathroom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA8F594C1CB9AC3B005D3A75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA8F59531CB9AC3B005D3A75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA8F59561CB9AC3B005D3A75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA8F59581CB9AC3B005D3A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA8F595D1CB9AC3B005D3A75 /* Disco BathroomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Disco BathroomTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA8F59611CB9AC3B005D3A75 /* Disco_BathroomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disco_BathroomTests.swift; sourceTree = "<group>"; };
+		CA8F59631CB9AC3B005D3A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA8F59681CB9AC3B005D3A75 /* Disco BathroomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Disco BathroomUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA8F596C1CB9AC3B005D3A75 /* Disco_BathroomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disco_BathroomUITests.swift; sourceTree = "<group>"; };
+		CA8F596E1CB9AC3B005D3A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA8F59851CB9AE2E005D3A75 /* DiscoBathroom-Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DiscoBathroom-Settings.swift"; sourceTree = "<group>"; };
+		CA8F598B1CB9AEBB005D3A75 /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
+		CA8F598C1CB9AEBB005D3A75 /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		CA8F598D1CB9AEBB005D3A75 /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTextView.swift; sourceTree = "<group>"; };
+		CA8F598E1CB9AEBB005D3A75 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		CA8F598F1CB9AEBB005D3A75 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		CA8F59901CB9AEBB005D3A75 /* DesignableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
+		CA8F59911CB9AEBB005D3A75 /* DesignableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableLabel.swift; sourceTree = "<group>"; };
+		CA8F59921CB9AEBB005D3A75 /* DesignableTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTabBarController.swift; sourceTree = "<group>"; };
+		CA8F59931CB9AEBB005D3A75 /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		CA8F59941CB9AEBB005D3A75 /* DesignableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextView.swift; sourceTree = "<group>"; };
+		CA8F59951CB9AEBB005D3A75 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		CA8F59961CB9AEBB005D3A75 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		CA8F59971CB9AEBB005D3A75 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA8F59981CB9AEBB005D3A75 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		CA8F59991CB9AEBB005D3A75 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		CA8F599A1CB9AEBB005D3A75 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		CA8F599B1CB9AEBB005D3A75 /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		CA8F599C1CB9AEBB005D3A75 /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		CA8F599D1CB9AEBB005D3A75 /* Spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spring.h; sourceTree = "<group>"; };
+		CA8F599E1CB9AEBB005D3A75 /* Spring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
+		CA8F599F1CB9AEBB005D3A75 /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
+		CA8F59A01CB9AEBB005D3A75 /* SpringButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringButton.swift; sourceTree = "<group>"; };
+		CA8F59A11CB9AEBB005D3A75 /* SpringImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringImageView.swift; sourceTree = "<group>"; };
+		CA8F59A21CB9AEBB005D3A75 /* SpringLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringLabel.swift; sourceTree = "<group>"; };
+		CA8F59A31CB9AEBB005D3A75 /* SpringTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextField.swift; sourceTree = "<group>"; };
+		CA8F59A41CB9AEBB005D3A75 /* SpringTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextView.swift; sourceTree = "<group>"; };
+		CA8F59A51CB9AEBB005D3A75 /* SpringView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringView.swift; sourceTree = "<group>"; };
+		CA8F59A61CB9AEBB005D3A75 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		CA8F59A71CB9AEBB005D3A75 /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
+		CA8F59A81CB9AEBB005D3A75 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
+		CA8F59C61CB9AEC5005D3A75 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		CA8F59C91CB9AF0E005D3A75 /* AnimationFrames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationFrames.swift; sourceTree = "<group>"; };
+		CA8F59CA1CB9AF0E005D3A75 /* UIImageView+Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Download.swift"; sourceTree = "<group>"; };
+		CA8F59CB1CB9AF0E005D3A75 /* UIImage+DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+DropShadow.swift"; sourceTree = "<group>"; };
+		CA8F59CF1CB9AF98005D3A75 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CA8F59D11CB9AFD4005D3A75 /* CancelableTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelableTimer.swift; sourceTree = "<group>"; };
+		CA8F59D31CB9AFF5005D3A75 /* RadioStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioStation.swift; sourceTree = "<group>"; };
+		CA8F59D51CB9B086005D3A75 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		CA8F59D71CB9B0BA005D3A75 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		CA8F59D91CB9B0FD005D3A75 /* stations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stations.json; sourceTree = "<group>"; };
+		CA8F59DB1CB9B124005D3A75 /* Data Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data Manager.swift"; sourceTree = "<group>"; };
+		CA8F59DD1CB9B17C005D3A75 /* NothingFoundCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
+		CA8F59DF1CB9B190005D3A75 /* StationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationTableViewCell.swift; sourceTree = "<group>"; };
+		CA8F59E11CB9B1C2005D3A75 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		CA8F59E21CB9B1C2005D3A75 /* InfoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoDetailViewController.swift; sourceTree = "<group>"; };
+		CA8F59E31CB9B1C2005D3A75 /* NowPlayingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
+		CA8F59E41CB9B1C2005D3A75 /* NowPlayingViewController+Flash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NowPlayingViewController+Flash.swift"; sourceTree = "<group>"; };
+		CA8F59E51CB9B1C2005D3A75 /* OptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		CA8F59E61CB9B1C2005D3A75 /* LightsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightsViewController.swift; sourceTree = "<group>"; };
+		CA8F59E71CB9B1C2005D3A75 /* PopUpMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpMenuViewController.swift; sourceTree = "<group>"; };
+		CA8F59E81CB9B1C2005D3A75 /* StationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsViewController.swift; sourceTree = "<group>"; };
+		CA8F59F11CB9B446005D3A75 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA8F59461CB9AC3B005D3A75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8F59F21CB9B446005D3A75 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8F595A1CB9AC3B005D3A75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8F59651CB9AC3B005D3A75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA8F59401CB9AC3B005D3A75 = {
+			isa = PBXGroup;
+			children = (
+				CA8F59871CB9AE88005D3A75 /* Libraries */,
+				CA8F594B1CB9AC3B005D3A75 /* Disco Bathroom */,
+				CA8F59601CB9AC3B005D3A75 /* Disco BathroomTests */,
+				CA8F596B1CB9AC3B005D3A75 /* Disco BathroomUITests */,
+				CA8F594A1CB9AC3B005D3A75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA8F594A1CB9AC3B005D3A75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA8F59491CB9AC3B005D3A75 /* Disco Bathroom.app */,
+				CA8F595D1CB9AC3B005D3A75 /* Disco BathroomTests.xctest */,
+				CA8F59681CB9AC3B005D3A75 /* Disco BathroomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA8F594B1CB9AC3B005D3A75 /* Disco Bathroom */ = {
+			isa = PBXGroup;
+			children = (
+				CA8F59C81CB9AED4005D3A75 /* Models */,
+				CA8F59821CB9ADB0005D3A75 /* Data */,
+				CA8F59811CB9AD53005D3A75 /* Cells */,
+				CA8F59801CB9AD46005D3A75 /* Networking */,
+				CA8F597E1CB9AC84005D3A75 /* ViewControllers */,
+				CA8F597D1CB9AC81005D3A75 /* Layouts */,
+				CA8F597C1CB9AC7F005D3A75 /* UI Helpers */,
+				CA8F597B1CB9AC7C005D3A75 /* Other */,
+				CA8F597A1CB9AC6A005D3A75 /* Supporting Files */,
+				CA8F59531CB9AC3B005D3A75 /* Assets.xcassets */,
+			);
+			path = "Disco Bathroom";
+			sourceTree = "<group>";
+		};
+		CA8F59601CB9AC3B005D3A75 /* Disco BathroomTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA8F59611CB9AC3B005D3A75 /* Disco_BathroomTests.swift */,
+				CA8F59631CB9AC3B005D3A75 /* Info.plist */,
+			);
+			path = "Disco BathroomTests";
+			sourceTree = "<group>";
+		};
+		CA8F596B1CB9AC3B005D3A75 /* Disco BathroomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA8F596C1CB9AC3B005D3A75 /* Disco_BathroomUITests.swift */,
+				CA8F596E1CB9AC3B005D3A75 /* Info.plist */,
+			);
+			path = "Disco BathroomUITests";
+			sourceTree = "<group>";
+		};
+		CA8F597A1CB9AC6A005D3A75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA8F59581CB9AC3B005D3A75 /* Info.plist */,
+				CA8F59851CB9AE2E005D3A75 /* DiscoBathroom-Settings.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA8F597B1CB9AC7C005D3A75 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CA8F594C1CB9AC3B005D3A75 /* AppDelegate.swift */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		CA8F597C1CB9AC7F005D3A75 /* UI Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CA8F59C91CB9AF0E005D3A75 /* AnimationFrames.swift */,
+				CA8F59CA1CB9AF0E005D3A75 /* UIImageView+Download.swift */,
+				CA8F59CB1CB9AF0E005D3A75 /* UIImage+DropShadow.swift */,
+			);
+			name = "UI Helpers";
+			sourceTree = "<group>";
+		};
+		CA8F597D1CB9AC81005D3A75 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				CA8F59CF1CB9AF98005D3A75 /* Main.storyboard */,
+				CA8F59551CB9AC3B005D3A75 /* LaunchScreen.storyboard */,
+			);
+			name = Layouts;
+			sourceTree = "<group>";
+		};
+		CA8F597E1CB9AC84005D3A75 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CA8F59E11CB9B1C2005D3A75 /* AboutViewController.swift */,
+				CA8F59E21CB9B1C2005D3A75 /* InfoDetailViewController.swift */,
+				CA8F59E31CB9B1C2005D3A75 /* NowPlayingViewController.swift */,
+				CA8F59E41CB9B1C2005D3A75 /* NowPlayingViewController+Flash.swift */,
+				CA8F59E51CB9B1C2005D3A75 /* OptionsViewController.swift */,
+				CA8F59E61CB9B1C2005D3A75 /* LightsViewController.swift */,
+				CA8F59E71CB9B1C2005D3A75 /* PopUpMenuViewController.swift */,
+				CA8F59E81CB9B1C2005D3A75 /* StationsViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CA8F59801CB9AD46005D3A75 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CA8F59DB1CB9B124005D3A75 /* Data Manager.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		CA8F59811CB9AD53005D3A75 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CA8F59DD1CB9B17C005D3A75 /* NothingFoundCell.xib */,
+				CA8F59DF1CB9B190005D3A75 /* StationTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		CA8F59821CB9ADB0005D3A75 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CA8F59D91CB9B0FD005D3A75 /* stations.json */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		CA8F59871CB9AE88005D3A75 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				CA8F59F11CB9B446005D3A75 /* MediaPlayer.framework */,
+				CA8F59C61CB9AEC5005D3A75 /* SwiftyJSON.swift */,
+				CA8F598A1CB9AEAA005D3A75 /* Spring */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		CA8F598A1CB9AEAA005D3A75 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				CA8F598B1CB9AEBB005D3A75 /* AsyncButton.swift */,
+				CA8F598C1CB9AEBB005D3A75 /* AsyncImageView.swift */,
+				CA8F598D1CB9AEBB005D3A75 /* AutoTextView.swift */,
+				CA8F598E1CB9AEBB005D3A75 /* BlurView.swift */,
+				CA8F598F1CB9AEBB005D3A75 /* DesignableButton.swift */,
+				CA8F59901CB9AEBB005D3A75 /* DesignableImageView.swift */,
+				CA8F59911CB9AEBB005D3A75 /* DesignableLabel.swift */,
+				CA8F59921CB9AEBB005D3A75 /* DesignableTabBarController.swift */,
+				CA8F59931CB9AEBB005D3A75 /* DesignableTextField.swift */,
+				CA8F59941CB9AEBB005D3A75 /* DesignableTextView.swift */,
+				CA8F59951CB9AEBB005D3A75 /* DesignableView.swift */,
+				CA8F59961CB9AEBB005D3A75 /* ImageLoader.swift */,
+				CA8F59971CB9AEBB005D3A75 /* Info.plist */,
+				CA8F59981CB9AEBB005D3A75 /* KeyboardLayoutConstraint.swift */,
+				CA8F59991CB9AEBB005D3A75 /* LoadingView.swift */,
+				CA8F599A1CB9AEBB005D3A75 /* LoadingView.xib */,
+				CA8F599B1CB9AEBB005D3A75 /* Misc.swift */,
+				CA8F599C1CB9AEBB005D3A75 /* SoundPlayer.swift */,
+				CA8F599D1CB9AEBB005D3A75 /* Spring.h */,
+				CA8F599E1CB9AEBB005D3A75 /* Spring.swift */,
+				CA8F599F1CB9AEBB005D3A75 /* SpringAnimation.swift */,
+				CA8F59A01CB9AEBB005D3A75 /* SpringButton.swift */,
+				CA8F59A11CB9AEBB005D3A75 /* SpringImageView.swift */,
+				CA8F59A21CB9AEBB005D3A75 /* SpringLabel.swift */,
+				CA8F59A31CB9AEBB005D3A75 /* SpringTextField.swift */,
+				CA8F59A41CB9AEBB005D3A75 /* SpringTextView.swift */,
+				CA8F59A51CB9AEBB005D3A75 /* SpringView.swift */,
+				CA8F59A61CB9AEBB005D3A75 /* TransitionManager.swift */,
+				CA8F59A71CB9AEBB005D3A75 /* TransitionZoom.swift */,
+				CA8F59A81CB9AEBB005D3A75 /* UnwindSegue.swift */,
+			);
+			name = Spring;
+			sourceTree = "<group>";
+		};
+		CA8F59C81CB9AED4005D3A75 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CA8F59D11CB9AFD4005D3A75 /* CancelableTimer.swift */,
+				CA8F59D31CB9AFF5005D3A75 /* RadioStation.swift */,
+				CA8F59D51CB9B086005D3A75 /* Player.swift */,
+				CA8F59D71CB9B0BA005D3A75 /* Track.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA8F59481CB9AC3B005D3A75 /* Disco Bathroom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA8F59711CB9AC3B005D3A75 /* Build configuration list for PBXNativeTarget "Disco Bathroom" */;
+			buildPhases = (
+				CA8F59451CB9AC3B005D3A75 /* Sources */,
+				CA8F59461CB9AC3B005D3A75 /* Frameworks */,
+				CA8F59471CB9AC3B005D3A75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Disco Bathroom";
+			productName = "Disco Bathroom";
+			productReference = CA8F59491CB9AC3B005D3A75 /* Disco Bathroom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA8F595C1CB9AC3B005D3A75 /* Disco BathroomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA8F59741CB9AC3B005D3A75 /* Build configuration list for PBXNativeTarget "Disco BathroomTests" */;
+			buildPhases = (
+				CA8F59591CB9AC3B005D3A75 /* Sources */,
+				CA8F595A1CB9AC3B005D3A75 /* Frameworks */,
+				CA8F595B1CB9AC3B005D3A75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA8F595F1CB9AC3B005D3A75 /* PBXTargetDependency */,
+			);
+			name = "Disco BathroomTests";
+			productName = "Disco BathroomTests";
+			productReference = CA8F595D1CB9AC3B005D3A75 /* Disco BathroomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA8F59671CB9AC3B005D3A75 /* Disco BathroomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA8F59771CB9AC3B005D3A75 /* Build configuration list for PBXNativeTarget "Disco BathroomUITests" */;
+			buildPhases = (
+				CA8F59641CB9AC3B005D3A75 /* Sources */,
+				CA8F59651CB9AC3B005D3A75 /* Frameworks */,
+				CA8F59661CB9AC3B005D3A75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA8F596A1CB9AC3B005D3A75 /* PBXTargetDependency */,
+			);
+			name = "Disco BathroomUITests";
+			productName = "Disco BathroomUITests";
+			productReference = CA8F59681CB9AC3B005D3A75 /* Disco BathroomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA8F59411CB9AC3B005D3A75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kenneth Gabbara";
+				TargetAttributes = {
+					CA8F59481CB9AC3B005D3A75 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = RVN4U8KWBE;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					CA8F595C1CB9AC3B005D3A75 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CA8F59481CB9AC3B005D3A75;
+					};
+					CA8F59671CB9AC3B005D3A75 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CA8F59481CB9AC3B005D3A75;
+					};
+				};
+			};
+			buildConfigurationList = CA8F59441CB9AC3B005D3A75 /* Build configuration list for PBXProject "Disco Bathroom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA8F59401CB9AC3B005D3A75;
+			productRefGroup = CA8F594A1CB9AC3B005D3A75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA8F59481CB9AC3B005D3A75 /* Disco Bathroom */,
+				CA8F595C1CB9AC3B005D3A75 /* Disco BathroomTests */,
+				CA8F59671CB9AC3B005D3A75 /* Disco BathroomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA8F59471CB9AC3B005D3A75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8F59571CB9AC3B005D3A75 /* LaunchScreen.storyboard in Resources */,
+				CA8F59DE1CB9B17C005D3A75 /* NothingFoundCell.xib in Resources */,
+				CA8F59D01CB9AF98005D3A75 /* Main.storyboard in Resources */,
+				CA8F59DA1CB9B0FD005D3A75 /* stations.json in Resources */,
+				CA8F59B81CB9AEBB005D3A75 /* LoadingView.xib in Resources */,
+				CA8F59541CB9AC3B005D3A75 /* Assets.xcassets in Resources */,
+				CA8F59B51CB9AEBB005D3A75 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8F595B1CB9AC3B005D3A75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8F59661CB9AC3B005D3A75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA8F59451CB9AC3B005D3A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8F59EC1CB9B1C2005D3A75 /* NowPlayingViewController+Flash.swift in Sources */,
+				CA8F59F01CB9B1C2005D3A75 /* StationsViewController.swift in Sources */,
+				CA8F59ED1CB9B1C2005D3A75 /* OptionsViewController.swift in Sources */,
+				CA8F59BF1CB9AEBB005D3A75 /* SpringLabel.swift in Sources */,
+				CA8F59CE1CB9AF0E005D3A75 /* UIImage+DropShadow.swift in Sources */,
+				CA8F59E01CB9B190005D3A75 /* StationTableViewCell.swift in Sources */,
+				CA8F59B41CB9AEBB005D3A75 /* ImageLoader.swift in Sources */,
+				CA8F59EA1CB9B1C2005D3A75 /* InfoDetailViewController.swift in Sources */,
+				CA8F59B91CB9AEBB005D3A75 /* Misc.swift in Sources */,
+				CA8F59C71CB9AEC5005D3A75 /* SwiftyJSON.swift in Sources */,
+				CA8F59AE1CB9AEBB005D3A75 /* DesignableImageView.swift in Sources */,
+				CA8F59BE1CB9AEBB005D3A75 /* SpringImageView.swift in Sources */,
+				CA8F594D1CB9AC3B005D3A75 /* AppDelegate.swift in Sources */,
+				CA8F59EB1CB9B1C2005D3A75 /* NowPlayingViewController.swift in Sources */,
+				CA8F59D41CB9AFF5005D3A75 /* RadioStation.swift in Sources */,
+				CA8F59BA1CB9AEBB005D3A75 /* SoundPlayer.swift in Sources */,
+				CA8F59C11CB9AEBB005D3A75 /* SpringTextView.swift in Sources */,
+				CA8F59861CB9AE2E005D3A75 /* DiscoBathroom-Settings.swift in Sources */,
+				CA8F59B31CB9AEBB005D3A75 /* DesignableView.swift in Sources */,
+				CA8F59BC1CB9AEBB005D3A75 /* SpringAnimation.swift in Sources */,
+				CA8F59BB1CB9AEBB005D3A75 /* Spring.swift in Sources */,
+				CA8F59B71CB9AEBB005D3A75 /* LoadingView.swift in Sources */,
+				CA8F59D61CB9B086005D3A75 /* Player.swift in Sources */,
+				CA8F59CC1CB9AF0E005D3A75 /* AnimationFrames.swift in Sources */,
+				CA8F59C01CB9AEBB005D3A75 /* SpringTextField.swift in Sources */,
+				CA8F59AD1CB9AEBB005D3A75 /* DesignableButton.swift in Sources */,
+				CA8F59DC1CB9B124005D3A75 /* Data Manager.swift in Sources */,
+				CA8F59D81CB9B0BA005D3A75 /* Track.swift in Sources */,
+				CA8F59B11CB9AEBB005D3A75 /* DesignableTextField.swift in Sources */,
+				CA8F59A91CB9AEBB005D3A75 /* AsyncButton.swift in Sources */,
+				CA8F59B61CB9AEBB005D3A75 /* KeyboardLayoutConstraint.swift in Sources */,
+				CA8F59CD1CB9AF0E005D3A75 /* UIImageView+Download.swift in Sources */,
+				CA8F59BD1CB9AEBB005D3A75 /* SpringButton.swift in Sources */,
+				CA8F59AA1CB9AEBB005D3A75 /* AsyncImageView.swift in Sources */,
+				CA8F59B01CB9AEBB005D3A75 /* DesignableTabBarController.swift in Sources */,
+				CA8F59AB1CB9AEBB005D3A75 /* AutoTextView.swift in Sources */,
+				CA8F59B21CB9AEBB005D3A75 /* DesignableTextView.swift in Sources */,
+				CA8F59EE1CB9B1C2005D3A75 /* LightsViewController.swift in Sources */,
+				CA8F59AF1CB9AEBB005D3A75 /* DesignableLabel.swift in Sources */,
+				CA8F59EF1CB9B1C2005D3A75 /* PopUpMenuViewController.swift in Sources */,
+				CA8F59C51CB9AEBB005D3A75 /* UnwindSegue.swift in Sources */,
+				CA8F59D21CB9AFD4005D3A75 /* CancelableTimer.swift in Sources */,
+				CA8F59C31CB9AEBB005D3A75 /* TransitionManager.swift in Sources */,
+				CA8F59AC1CB9AEBB005D3A75 /* BlurView.swift in Sources */,
+				CA8F59C21CB9AEBB005D3A75 /* SpringView.swift in Sources */,
+				CA8F59E91CB9B1C2005D3A75 /* AboutViewController.swift in Sources */,
+				CA8F59C41CB9AEBB005D3A75 /* TransitionZoom.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8F59591CB9AC3B005D3A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8F59621CB9AC3B005D3A75 /* Disco_BathroomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8F59641CB9AC3B005D3A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8F596D1CB9AC3B005D3A75 /* Disco_BathroomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA8F595F1CB9AC3B005D3A75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA8F59481CB9AC3B005D3A75 /* Disco Bathroom */;
+			targetProxy = CA8F595E1CB9AC3B005D3A75 /* PBXContainerItemProxy */;
+		};
+		CA8F596A1CB9AC3B005D3A75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA8F59481CB9AC3B005D3A75 /* Disco Bathroom */;
+			targetProxy = CA8F59691CB9AC3B005D3A75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA8F59551CB9AC3B005D3A75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA8F59561CB9AC3B005D3A75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA8F596F1CB9AC3B005D3A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA8F59701CB9AC3B005D3A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA8F59721CB9AC3B005D3A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Disco Bathroom/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KennethGabbara.Disco-Bathroom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA8F59731CB9AC3B005D3A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Disco Bathroom/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KennethGabbara.Disco-Bathroom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CA8F59751CB9AC3B005D3A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Disco BathroomTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KennethGabbara.Disco-BathroomTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Disco Bathroom.app/Disco Bathroom";
+			};
+			name = Debug;
+		};
+		CA8F59761CB9AC3B005D3A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Disco BathroomTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KennethGabbara.Disco-BathroomTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Disco Bathroom.app/Disco Bathroom";
+			};
+			name = Release;
+		};
+		CA8F59781CB9AC3B005D3A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Disco BathroomUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KennethGabbara.Disco-BathroomUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Disco Bathroom";
+			};
+			name = Debug;
+		};
+		CA8F59791CB9AC3B005D3A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Disco BathroomUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KennethGabbara.Disco-BathroomUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Disco Bathroom";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA8F59441CB9AC3B005D3A75 /* Build configuration list for PBXProject "Disco Bathroom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8F596F1CB9AC3B005D3A75 /* Debug */,
+				CA8F59701CB9AC3B005D3A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA8F59711CB9AC3B005D3A75 /* Build configuration list for PBXNativeTarget "Disco Bathroom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8F59721CB9AC3B005D3A75 /* Debug */,
+				CA8F59731CB9AC3B005D3A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA8F59741CB9AC3B005D3A75 /* Build configuration list for PBXNativeTarget "Disco BathroomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8F59751CB9AC3B005D3A75 /* Debug */,
+				CA8F59761CB9AC3B005D3A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA8F59771CB9AC3B005D3A75 /* Build configuration list for PBXNativeTarget "Disco BathroomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8F59781CB9AC3B005D3A75 /* Debug */,
+				CA8F59791CB9AC3B005D3A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA8F59411CB9AC3B005D3A75 /* Project object */;
+}
