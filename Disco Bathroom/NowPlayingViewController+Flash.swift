@@ -43,7 +43,7 @@ extension NowPlayingViewController: LightsViewControllerDelegate {
                 flashTimer = CancelableTimer(once: false) { [unowned self] in
                     self.toggleFlash()
                 }
-                flashTimer?.startWithInterval(0.3)
+                flashTimer?.startWithInterval(0.1)
             }
         }
         else {
