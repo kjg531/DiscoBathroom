@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="disco-bathroom-Logo" translatesAutoresizingMaskIntoConstraints="NO" id="jde-Iv-PZ5">
-                                <rect key="frame" x="180" y="236" width="240" height="128"/>
+                                <rect key="frame" x="20" y="194" width="560" height="212"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="16o-n2-Ysc"/>
@@ -43,12 +43,24 @@
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="7G1-Ks-wHS" secondAttribute="bottom" id="Brh-Ls-XIf"/>
                             <constraint firstItem="jde-Iv-PZ5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Gxm-xF-p3a"/>
                             <constraint firstAttribute="trailingMargin" secondItem="jde-Iv-PZ5" secondAttribute="trailing" constant="160" id="I7V-Dy-eYM"/>
+                            <constraint firstItem="jde-Iv-PZ5" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="Uid-TV-u0C"/>
                             <constraint firstItem="7G1-Ks-wHS" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="VIR-cX-gwm"/>
                             <constraint firstItem="jde-Iv-PZ5" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="afZ-Ot-QvH"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="jde-Iv-PZ5" secondAttribute="bottom" constant="236" id="f52-SH-Bhf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jde-Iv-PZ5" secondAttribute="trailing" id="fTJ-W6-4fw"/>
                             <constraint firstItem="7G1-Ks-wHS" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="kyt-Ax-HDE"/>
+                            <constraint firstItem="jde-Iv-PZ5" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-70" id="rdP-Tb-TSh"/>
                             <constraint firstAttribute="trailingMargin" secondItem="7G1-Ks-wHS" secondAttribute="trailing" constant="-20" id="sPe-Bk-qYa"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="3Hi-ug-BmD"/>
+                                <exclude reference="8qG-sJ-wAG"/>
+                                <exclude reference="I7V-Dy-eYM"/>
+                                <exclude reference="rdP-Tb-TSh"/>
+                                <exclude reference="f52-SH-Bhf"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
