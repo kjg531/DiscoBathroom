@@ -755,7 +755,7 @@
                         <outlet property="playButton" destination="bmn-D6-1gw" id="lEM-KD-P9v"/>
                     </connections>
                 </viewController>
-                <navigationItem title="Swift Radio" id="hQi-wt-lV3">
+                <navigationItem id="hQi-wt-lV3">
                     <barButtonItem key="rightBarButtonItem" image="icon-hamburger" id="3dz-O0-iIG"/>
                 </navigationItem>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2uv-EL-dne" sceneMemberID="firstResponder"/>
