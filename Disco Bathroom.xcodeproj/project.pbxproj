@@ -51,7 +51,6 @@
 		CA8F59D41CB9AFF5005D3A75 /* RadioStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59D31CB9AFF5005D3A75 /* RadioStation.swift */; };
 		CA8F59D61CB9B086005D3A75 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59D51CB9B086005D3A75 /* Player.swift */; };
 		CA8F59D81CB9B0BA005D3A75 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59D71CB9B0BA005D3A75 /* Track.swift */; };
-		CA8F59DA1CB9B0FD005D3A75 /* stations.json in Resources */ = {isa = PBXBuildFile; fileRef = CA8F59D91CB9B0FD005D3A75 /* stations.json */; };
 		CA8F59DC1CB9B124005D3A75 /* Data Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59DB1CB9B124005D3A75 /* Data Manager.swift */; };
 		CA8F59DE1CB9B17C005D3A75 /* NothingFoundCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA8F59DD1CB9B17C005D3A75 /* NothingFoundCell.xib */; };
 		CA8F59E01CB9B190005D3A75 /* StationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F59DF1CB9B190005D3A75 /* StationTableViewCell.swift */; };
@@ -135,7 +134,6 @@
 		CA8F59D31CB9AFF5005D3A75 /* RadioStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioStation.swift; sourceTree = "<group>"; };
 		CA8F59D51CB9B086005D3A75 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		CA8F59D71CB9B0BA005D3A75 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
-		CA8F59D91CB9B0FD005D3A75 /* stations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stations.json; sourceTree = "<group>"; };
 		CA8F59DB1CB9B124005D3A75 /* Data Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data Manager.swift"; sourceTree = "<group>"; };
 		CA8F59DD1CB9B17C005D3A75 /* NothingFoundCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NothingFoundCell.xib; sourceTree = "<group>"; };
 		CA8F59DF1CB9B190005D3A75 /* StationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationTableViewCell.swift; sourceTree = "<group>"; };
@@ -212,7 +210,6 @@
 			isa = PBXGroup;
 			children = (
 				CA5D7E991CB9C4CA00F9E0E9 /* Models */,
-				CA8F59C81CB9AED4005D3A75 /* Data */,
 				CA8F59821CB9ADB0005D3A75 /* Cells */,
 				CA8F59811CB9AD53005D3A75 /* Networking */,
 				CA8F59801CB9AD46005D3A75 /* ViewControllers */,
@@ -367,14 +364,6 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
-		CA8F59C81CB9AED4005D3A75 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				CA8F59D91CB9B0FD005D3A75 /* stations.json */,
-			);
-			name = Data;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -490,7 +479,6 @@
 				CA7F7A051CB9C8AC0017AC0F /* Info.plist in Resources */,
 				CA8F59D01CB9AF98005D3A75 /* Main.storyboard in Resources */,
 				CA7F7A081CB9C8AC0017AC0F /* LoadingView.xib in Resources */,
-				CA8F59DA1CB9B0FD005D3A75 /* stations.json in Resources */,
 				CA8F59541CB9AC3B005D3A75 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
