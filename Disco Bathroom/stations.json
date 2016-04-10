@@ -2,32 +2,67 @@
     "station":
     [
      {
-     "name": "Sub Pop Radio",
-     "streamURL": "http://209.237.244.98:8004/",
-     "imageURL": "station-sub.png",
-     "desc": "Midsized Record Label",
-     "longDesc": "Sub Pop is a record label founded in 1986 by Bruce Pavitt. In 1988, Sub Pop Records LLC was formed by Bruce Pavitt and Jonathan Poneman in Seattle, Washington. Sub Pop achieved fame in the late 1980s for first signing Nirvana, Soundgarden, Mudhoney and many other bands from the Seattle alternative rock scene."
-     },
-     {
-     "name": "Sounds of the 80s",
-     "streamURL": "http://tuneinads.moodmedia.com/streams/tunein_sounds_of_the_80s_with_ads.mp3",
-     "imageURL": "station-80s",
-     "desc": "Totally Rad",
-     "longDesc": "80s Baby! The '80s is not about nostalgia; it is about a decade of people, decisions and inventions that changed our future, told from the perspective of unknowing history makers who lived these iconic moments."
-     },
-     {
-     "name": "Spaceland Radio",
-     "streamURL": "http://rfcmedia.streamguys1.com/echo.aac",
-     "imageURL": "station-spaceland",
-     "desc": "Indie from L.A.",
-     "longDesc": "The Spaceland Radio station is the brainchild of club owner, LA music promoter, and industry icon Mitchell Frank, who has personally curated the station with songs new and old from artists who have performed at Spaceland venues."
-     },
-     {
-     "name": "Radio 1190",
-     "streamURL": "http://radio1190.colorado.edu:8000/high.mp3",
+     "name": "70s Disco Nights",
+     "streamURL": "http://streaming.radionomy.com/70s-Disco-Nights?lang=en-US%2cen%3bq%3d0.8",
      "imageURL": "",
-     "desc": "KVCU - Boulder, CO",
-     "longDesc": "Radio 1190 is the bomb."
+     "desc": "70s Disco music",
+     "longDesc": "Listen for the best 70s Disco music here at 70s Disco Nights."
+     },
+     {
+     "name": "TuneIn Disco",
+     "streamURL": "http://tuneinads.moodmedia.com/streams/tunein_disco_with_ads.mp3",
+     "imageURL": "tid.png",
+     "desc": "Disco Fever",
+     "longDesc": "Disco Fever"
+     },
+     {
+     "name": "Studio54",
+     "streamURL": "http://streaming308.radionomy.com:80/DISCOSTUDIO54HDRADIO",
+     "imageURL": "s54.jpg",
+     "desc": "Studio54 classics",
+     "longDesc": "Studio54 classics 24 hours a day."
+     },
+     {
+     "name": "Disco Classics",
+     "streamURL": "http://streaming210.radionomy.com:80/Disco-Classics",
+     "imageURL": "dc.png",
+     "desc": "70s and 80s.",
+     "longDesc": "Only the best disco tunes from the 70s and 80s."
+     },
+     {
+     "name": "AmbianceDisco",
+     "streamURL": "http://streaming207.radionomy.com:80/Ambiance-Disco",
+     "imageURL": "ad.png",
+     "desc": "100% disco",
+     "longDesc": "100% disco"
+     },
+     {
+     "name": "Disco Nights",
+     "streamURL": "http://streaming207.radionomy.com:80/DISCO-NIGHTS",
+     "imageURL": "dn.png",
+     "desc": "Disco and Funk",
+     "longDesc": "Disco Music Web Radio (Disco and Funk)"
+     },
+     {
+     "name": "M2 Funk",
+     "streamURL": "http://neo.m2stream.fr:8000/m2funk-128.mp3",
+     "imageURL": "m2f.png",
+     "desc": "Only Funk & Disco",
+     "longDesc": "Only Funk & Disco"
+     },
+     {
+     "name": "AbacusFM Disco Hits",
+     "streamURL": "http://streaming210.radionomy.com:80/AbacusfmDiscoHits",
+     "imageURL": "aFMdh.png",
+     "desc": "Abacus.fm Disco Hits",
+     "longDesc": "Abacus.fm Disco Hits - Tap your feet and get down on that dance floor it s DISCO HITS from Abacus.fm"
+     },
+     {
+     "name": "Funky Town Radio",
+     "streamURL": "http://streaming208.radionomy.com:80/FUNKYTOWN-RADIO",
+     "imageURL": "ftr.jpg",
+     "desc": "Disco/Funk/Soul",
+     "longDesc": "AWebradio Disco/Funk/Soul"
      }
-    ]
+     ]
 }
