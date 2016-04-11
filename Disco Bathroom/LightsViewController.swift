@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import AVFoundation
+import AudioToolbox
 
 protocol LightsViewControllerDelegate: class {
     func lightsViewControllerDidUpdateState(withFlashOption flashOption: Bool, lightsOptions: Bool)
@@ -128,6 +130,7 @@ class LightsViewController: UIViewController, OptionsViewControllerDelegate {
                         self.flashColor()
                     }
                 }
+                AudioServicesPlaySystemSound(SystemSoundID(kSystemSoundID_Vibrate))
                 colorTimer?.startWithInterval(0.1)
             }
             
